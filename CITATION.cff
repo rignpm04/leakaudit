@@ -1,13 +1,13 @@
 cff-version: 1.2.0
 message: "If you use this record, please cite it as below."
-title: "leakaudit: exploratory record of fine-tuning runs 1-4"
+title: "leakaudit: pre-registration of fine-tuning run 5 (sealed real test 5)"
 type: software
 authors:
   - given-names: "Patrick"
     family-names: "Rigney"
     affiliation: "Azalea Intelligence LLC"
-version: "0.1-exploratory"
-date-released: "2026-10-26"
+version: "1.0-prereg"
+date-released: "2026-10-27"
 license: Apache-2.0
 repository-code: "https://github.com/rignpm04/leakaudit"
 keywords:
@@ -16,3 +16,4 @@ keywords:
   - tabular data
   - machine learning evaluation
   - language models
+  - pre-registration

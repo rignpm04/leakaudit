@@ -1,0 +1,23 @@
+# SHA-256 of the run 5 code in this release (leakaudit_run5_code.zip), fixed at registration.
+# Part A (t0-t4, t6) ran on the author's computer before registration with these same files, except where
+# a 'Part A ran with' line follows (r5_common.py: scoring helpers added at the end afterwards, its earlier code unchanged;
+# GUIDE.md: Parts B and C added).
+
+cb413b0cfd4310916a461f8d0123d2ed83a42ea0f7c99aed3e43ade2ddbad644  common.py
+44a6eb8ef9ddaab823b03b9f385e7093e044198154ea5789ab1502151be80e1f  step1_generate.py
+41565051b5cf0a246c11e58cb23bdac211f8e725267ac59dd090db381bbb976d  step1_get_data.py
+2a62152fdd0bd02d3cdd055dd91ae5abefd8699fa11a34262475b850d4547bcb  step3_llm_audit.py
+b09778e2cf67e98703d7f4c2c3d7c3e9ee3550859d14ba5403b2b94db75851a1  r5_common.py
+7831ae417ead7a10e9d73ccd119132ab84c557d636f1b527c6e55b9152853fc2  r5_common.py  (Part A ran with this version)
+a86693b9c3448e68cee40e4039638b76bfb613ca11281f93c5e85f09a73bd734  t0_import.py
+6a04eddcdfea86d9c5ca45191d805f7ecf24b9ad41ce225fab31795b9f428402  t1_get_data.py
+23a1720191c6e80be2c0bdf5acff9494f75cf4e429015b0e001d558a2e10602d  t2_teachers.py
+cf14a24a7667bf0dfe1fb338c7450fca881da1a072d2e79ad68f1b2bebae4664  t3_make_training.py
+ce128ba4dcad421261e457affd65fa339eda1e8caf7df9257e05503120263146  t4_make_test_prompts.py
+b06eba20161ca3c3ba6b72b2d3d25be1b9f25f365c4828c665f759adccb9ffc2  t5_import_gpu.py
+3f7a20e9adc1cbabac4780f4baafff825ca1271578a2362b8af38a74b4c319be  t6_baselines.py
+36905ea7c6b8435462efbd03cc62fcf86bee5309efa496add005d0fa1facae5e  t7_label_review.py
+89f9954b7e56a3aa268ce2524db5448a43c198d611357746a34283abb9678edd  t8_score.py
+e6c5bb456ad573d447972407991e0ee8b44fdf5c4ac3fcaa2f5363c4a1379342  train5_runpod_run5.ipynb
+62bb92a1c08fb95d83b65247aa3acea1401380f52e7320fb6d9e5c73ef8b29c2  GUIDE.md
+b9be357f0af713507c9100d9527b7fd22612cf5882d56292a5f80f01966aa083  GUIDE.md  (Part A ran with this version)
