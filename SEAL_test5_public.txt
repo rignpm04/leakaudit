@@ -1,0 +1,6 @@
+leakaudit run 5: sealed test set (test 5) -- fingerprint
+
+File: test5_sealed_2026-10-26.zip (kept private until run 5 is scored, then published)
+SHA-256: 853b13b2724edf2aa26d2f0cbf7ddbea09b4120c7b434dc620916e0694337588
+Sealed: 2026-10-26. Contents: the answer key and documentation of 68 real tables (14 clean, 54 with leaks), all first made public on or after 2026-07-01; no third-party data.
+Key-correction rule fixed at sealing: After sealing, an answer-key label may change only if (1) at least one human labeler of the 15-table labeling set disagrees with it, (2) an independent re-check finds documentation or an exact data relation that supports the labeler, and (3) the change is made before any run-5 model output on test 5 is scored or opened. Every change is listed with its evidence, and results are reported on both the sealed key and the corrected key. Model outputs on test 5 are produced without the key (it never goes to the pod) and are fingerprinted as soon as they exist.

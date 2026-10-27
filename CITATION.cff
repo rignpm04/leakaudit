@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this record, please cite it as below."
+title: "leakaudit: exploratory record of fine-tuning runs 1-4"
+type: software
+authors:
+  - given-names: "Patrick"
+    family-names: "Rigney"
+    affiliation: "Azalea Intelligence LLC"
+version: "0.1-exploratory"
+date-released: "2026-10-26"
+license: Apache-2.0
+repository-code: "https://github.com/rignpm04/leakaudit"
+keywords:
+  - data leakage
+  - target leakage
+  - tabular data
+  - machine learning evaluation
+  - language models
