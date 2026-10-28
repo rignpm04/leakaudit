@@ -1,0 +1,26 @@
+{
+ "run": 5,
+ "created": "2026-10-28 08:30:35",
+ "inputs": {
+  "train.jsonl": "4ea8fd0233b0303099ab6fbacdfc490488f5c29dcddb8f8f9ceae3fdb572c0e3",
+  "val.jsonl": "c322c45c13332e2196673a11d1671992ec493a13aa035d3cf7f6d9d20858394f",
+  "test_prompts.jsonl": "18d6a8e97b046c0a87398a950360bd59b95295e038b1df5ad5f2feb7e56c3e59"
+ },
+ "answers": {
+  "answers_base_run5.jsonl": "ebd35082935b2797276a820a1ca4e1c701b138f9e8e7f5cf8652ad5a06c24c73",
+  "answers_s3407_run5.jsonl": "cf67f2aa3efdceba54747723634df143fe4521bc481fc1b3513ebce5469e6663",
+  "answers_s3408_run5.jsonl": "4d2df2340debb1829485469eb1b48fa436e40d3f0f92b0c5f86495d721f33382",
+  "answers_s3409_run5.jsonl": "f934340466e953bc0c1d63595e28509265fa22f779fb3630351bc08b68c8b70f",
+  "answers_gguf_q4_k_m_run5.jsonl": "2d3ac2216d3486261adf7ad12c7558694579dfd86ce2e6f9e9f508f76bd28fc8",
+  "answers_gguf_q6_k_run5.jsonl": "e19c6b5097686dbbffe8ee53d5f62b2d5b82afd1da7fc9bbc07ba463903aed0e"
+ },
+ "run_record": {
+  "train_run5.json": "962eb366361a75e6bfaf1dac722f15df78d0b937a47aa41e3a75276eacfab093"
+ },
+ "seed_records": {
+  "seed_s3407_run5.json": "27f57ee12f86fc558c28aaa1a8c1ad2fc412f0ec2e894911567371ecedfb0fbb",
+  "seed_s3408_run5.json": "3ac3ca51125a510d31b391bd1e043fd814c6e48231dc3e919eeed002127b5571",
+  "seed_s3409_run5.json": "bf9ea87b120841c8ecb139002e6a81ac28d59fd51474cd81fa86e58478fd454a"
+ },
+ "note": "SHA-256 of every answer file of run 5, made before anyone sees test 5's answer key"
+}

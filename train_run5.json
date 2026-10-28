@@ -1,0 +1,394 @@
+{
+ "run": 5,
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "model": "unsloth/Qwen3.5-9B",
+ "files": {
+  "train.jsonl": "4ea8fd0233b0303099ab6fbacdfc490488f5c29dcddb8f8f9ceae3fdb572c0e3",
+  "val.jsonl": "c322c45c13332e2196673a11d1671992ec493a13aa035d3cf7f6d9d20858394f",
+  "test_prompts.jsonl": "18d6a8e97b046c0a87398a950360bd59b95295e038b1df5ad5f2feb7e56c3e59"
+ },
+ "started": "2026-10-28 02:07:02",
+ "minutes": {
+  "gguf export": 13.6
+ },
+ "test_prompts_sha256": "18d6a8e97b046c0a87398a950360bd59b95295e038b1df5ad5f2feb7e56c3e59",
+ "versions": {
+  "torch": "2.8.0+cu128",
+  "transformers": "5.2.0",
+  "trl": "0.22.2",
+  "unsloth": "2026.10.9",
+  "python": "3.12.3"
+ },
+ "test": {
+  "prompts": 514,
+  "groups": {
+   "held-out domains": {
+    "tables": 12,
+    "prompts": 36
+   },
+   "training domains": {
+    "tables": 24,
+    "prompts": 72
+   },
+   "trap tables": {
+    "tables": 6,
+    "prompts": 19
+   },
+   "real test 5": {
+    "tables": 68,
+    "prompts": 208
+   },
+   "real test 5 disguised": {
+    "tables": 65,
+    "prompts": 179
+   }
+  }
+ },
+ "model_locked": true,
+ "prompt_sig": "0315dcce6c3518519c165df4bcffd7499c8586d773bc5aa6990decdd217979c7",
+ "batching_check": {
+  "prompts": 16,
+  "batch_tried": 16,
+  "seconds_one_at_a_time": 334.1,
+  "seconds_batched": 38.6,
+  "readable_mismatch": [],
+  "rated_columns": 142,
+  "same_flag": 123,
+  "same_share": 0.8662,
+  "identical_texts": 2,
+  "ok": true,
+  "answer_batch": 16,
+  "why": "2 of 16 answers identical, 86.6% of the rated columns the same flag",
+  "minutes": 6.2
+ },
+ "answer_batch": 16,
+ "base": {
+  "answers": 514,
+  "samples": 1542,
+  "readable_samples": 1542,
+  "asked_again": 1,
+  "no_readable_answer": 0,
+  "minutes": 18.6
+ },
+ "examples": {
+  "train": 5682,
+  "val": 295,
+  "by_source": {
+   "distill real": 478,
+   "distill disguised": 475,
+   "distill shuffled (no disguise)": 3,
+   "distill2 real": 608,
+   "distill2 disguised": 605,
+   "distill2 shuffled (no disguise)": 3,
+   "development real": 390,
+   "development disguised": 384,
+   "development shuffled": 390,
+   "development shuffled (no disguise)": 6,
+   "generated real": 2340
+  },
+  "left_out_too_long": 0,
+  "train_tokens": 6294041,
+  "max_tokens": 2240
+ },
+ "seeds": {
+  "3407": {
+   "seed": 3407,
+   "session": "s3407 trained 2026-10-28 03:50:43",
+   "train_minutes": 74.8,
+   "train_loss": 0.2283,
+   "eval_loss_by_step": [
+    [
+     100,
+     0.2759
+    ],
+    [
+     200,
+     0.2474
+    ],
+    [
+     300,
+     0.2344
+    ],
+    [
+     400,
+     0.2312
+    ],
+    [
+     500,
+     0.2268
+    ],
+    [
+     600,
+     0.2254
+    ],
+    [
+     700,
+     0.2241
+    ]
+   ],
+   "steps": 712,
+   "best_checkpoint": {
+    "step": 700,
+    "eval_loss": 0.2241,
+    "dir": "outputs_s3407/checkpoint-700"
+   },
+   "peak_gpu_gb": 38.6,
+   "trainer_settings": {
+    "num_train_epochs": 2,
+    "learning_rate": 0.0001,
+    "lr_scheduler_type": "cosine",
+    "warmup_steps": 21,
+    "per_device_train_batch_size": 4,
+    "gradient_accumulation_steps": 4,
+    "eval_steps": 100,
+    "save_steps": 100,
+    "save_total_limit": 3,
+    "load_best_model_at_end": true,
+    "metric_for_best_model": "eval_loss",
+    "greater_is_better": false,
+    "max_length": 8192,
+    "max_seq_length": 8192,
+    "padding_free": false,
+    "seed": 3407
+   },
+   "eval_loss_loaded_model": 0.2241,
+   "answers": {
+    "answers": 514,
+    "samples": 1542,
+    "readable_samples": 1542,
+    "asked_again": 2,
+    "no_readable_answer": 0,
+    "minutes": 18.0
+   },
+   "oom_splits": 0
+  },
+  "3408": {
+   "seed": 3408,
+   "session": "s3408 trained 2026-10-28 05:49:11",
+   "train_minutes": 69.7,
+   "train_loss": 0.2281,
+   "eval_loss_by_step": [
+    [
+     100,
+     0.2706
+    ],
+    [
+     200,
+     0.2439
+    ],
+    [
+     300,
+     0.2331
+    ],
+    [
+     400,
+     0.2314
+    ],
+    [
+     500,
+     0.2269
+    ],
+    [
+     600,
+     0.2245
+    ],
+    [
+     700,
+     0.2241
+    ]
+   ],
+   "steps": 712,
+   "best_checkpoint": {
+    "step": 700,
+    "eval_loss": 0.2241,
+    "dir": "outputs_s3408/checkpoint-700"
+   },
+   "peak_gpu_gb": 21.5,
+   "trainer_settings": {
+    "num_train_epochs": 2,
+    "learning_rate": 0.0001,
+    "lr_scheduler_type": "cosine",
+    "warmup_steps": 21,
+    "per_device_train_batch_size": 4,
+    "gradient_accumulation_steps": 4,
+    "eval_steps": 100,
+    "save_steps": 100,
+    "save_total_limit": 3,
+    "load_best_model_at_end": true,
+    "metric_for_best_model": "eval_loss",
+    "greater_is_better": false,
+    "max_length": 8192,
+    "max_seq_length": 8192,
+    "padding_free": false,
+    "seed": 3408
+   },
+   "eval_loss_loaded_model": 0.2241,
+   "answers": {
+    "answers": 514,
+    "samples": 1542,
+    "readable_samples": 1542,
+    "asked_again": 2,
+    "no_readable_answer": 0,
+    "minutes": 17.5
+   },
+   "oom_splits": 0
+  },
+  "3409": {
+   "seed": 3409,
+   "session": "s3409 trained 2026-10-28 07:18:02",
+   "train_minutes": 68.7,
+   "train_loss": 0.2285,
+   "eval_loss_by_step": [
+    [
+     100,
+     0.2716
+    ],
+    [
+     200,
+     0.2463
+    ],
+    [
+     300,
+     0.2332
+    ],
+    [
+     400,
+     0.2303
+    ],
+    [
+     500,
+     0.2265
+    ],
+    [
+     600,
+     0.2256
+    ],
+    [
+     700,
+     0.2243
+    ]
+   ],
+   "steps": 712,
+   "best_checkpoint": {
+    "step": 700,
+    "eval_loss": 0.2243,
+    "dir": "outputs_s3409/checkpoint-700"
+   },
+   "peak_gpu_gb": 39.5,
+   "trainer_settings": {
+    "num_train_epochs": 2,
+    "learning_rate": 0.0001,
+    "lr_scheduler_type": "cosine",
+    "warmup_steps": 21,
+    "per_device_train_batch_size": 4,
+    "gradient_accumulation_steps": 4,
+    "eval_steps": 100,
+    "save_steps": 100,
+    "save_total_limit": 3,
+    "load_best_model_at_end": true,
+    "metric_for_best_model": "eval_loss",
+    "greater_is_better": false,
+    "max_length": 8192,
+    "max_seq_length": 8192,
+    "padding_free": false,
+    "seed": 3409
+   },
+   "eval_loss_loaded_model": 0.2243,
+   "answers": {
+    "answers": 514,
+    "samples": 1542,
+    "readable_samples": 1542,
+    "asked_again": 2,
+    "no_readable_answer": 0,
+    "minutes": 17.4
+   },
+   "oom_splits": 0
+  }
+ },
+ "answer_files": {
+  "answers_base_run5.jsonl": "ebd35082935b2797276a820a1ca4e1c701b138f9e8e7f5cf8652ad5a06c24c73",
+  "answers_s3407_run5.jsonl": "cf67f2aa3efdceba54747723634df143fe4521bc481fc1b3513ebce5469e6663",
+  "answers_s3408_run5.jsonl": "4d2df2340debb1829485469eb1b48fa436e40d3f0f92b0c5f86495d721f33382",
+  "answers_s3409_run5.jsonl": "f934340466e953bc0c1d63595e28509265fa22f779fb3630351bc08b68c8b70f",
+  "answers_gguf_q4_k_m_run5.jsonl": "2d3ac2216d3486261adf7ad12c7558694579dfd86ce2e6f9e9f508f76bd28fc8",
+  "answers_gguf_q6_k_run5.jsonl": "e19c6b5097686dbbffe8ee53d5f62b2d5b82afd1da7fc9bbc07ba463903aed0e"
+ },
+ "settings": {
+  "max_seq_length": 16384,
+  "train_max_tokens": 8192,
+  "epochs": 2,
+  "learning_rate": 0.0001,
+  "lr_scheduler": "cosine",
+  "warmup_ratio": 0.03,
+  "lora_rank": 32,
+  "lora_alpha": 32,
+  "batch_size": 4,
+  "grad_accum": 4,
+  "eval_steps": 100,
+  "save_total_limit": 3,
+  "best_model_metric": "eval_loss",
+  "seeds": [
+   3407,
+   3408,
+   3409
+  ],
+  "eval": {
+   "k_samples": 3,
+   "answer_batch": 16,
+   "gen_seed": 20261101,
+   "max_new_tokens": 2048,
+   "temperature": 0.6,
+   "top_p": 0.95,
+   "top_k": 20,
+   "thinking": false,
+   "retry": "once, if a column is unrated by every readable sample or no sample is readable",
+   "gguf": {
+    "quants": [
+     "q4_k_m",
+     "q6_k"
+    ],
+    "engine": "llama.cpp llama-server",
+    "greedy": true,
+    "answers_per_prompt": 1
+   }
+  },
+  "training_text": "test prompt (thinking off) + answer json + <|im_end|>"
+ },
+ "gguf_seed": 3407,
+ "gguf": {
+  "q4_k_m": {
+   "file": "leakaudit5-qwen3.5-9b-s3407-Q4_K_M.gguf",
+   "gb": 5.38,
+   "sha256": "8ddf4acf0b384fe75821e18a0b6db4743c4a4fbfacc292cfac7a59c3880dae73",
+   "answered": true,
+   "answers": {
+    "answers": 514,
+    "samples": 514,
+    "readable_samples": 514,
+    "asked_again": 3,
+    "no_readable_answer": 0,
+    "minutes": 70.6
+   }
+  },
+  "q6_k": {
+   "file": "leakaudit5-qwen3.5-9b-s3407-Q6_K.gguf",
+   "gb": 7.04,
+   "sha256": "1839bfcf85d09704ee5ed58076f479dae2ca95e9be14c9920c79670f289bc5c8",
+   "answered": true,
+   "answers": {
+    "answers": 514,
+    "samples": 514,
+    "readable_samples": 514,
+    "asked_again": 3,
+    "no_readable_answer": 0,
+    "minutes": 70.1
+   }
+  }
+ },
+ "llama_server": {
+  "binary": "llama.cpp/build-server/bin/llama-server",
+  "minutes": 15.1,
+  "version": "version: 0.7.0-dev (build 1, commit f4d8af6)\nbuilt with GNU 13.3.0 for Linux x86_64"
+ },
+ "finished": "2026-10-28 08:30:35"
+}
