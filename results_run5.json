@@ -1,0 +1,1188 @@
+{
+ "corrections": [],
+ "coverage": {
+  "claude": {
+   "held-out domains": {
+    "answered": 0,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 36
+   },
+   "training domains": {
+    "answered": 0,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 72
+   },
+   "trap tables": {
+    "answered": 0,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 19
+   },
+   "real test 5": {
+    "answered": 208,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   },
+   "real test 5 disguised": {
+    "answered": 179,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   }
+  },
+  "gguf5-q4km": {
+   "held-out domains": {
+    "answered": 36,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   },
+   "training domains": {
+    "answered": 72,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   },
+   "trap tables": {
+    "answered": 19,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   },
+   "real test 5": {
+    "answered": 208,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   },
+   "real test 5 disguised": {
+    "answered": 179,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   }
+  },
+  "gguf5-q6k": {
+   "held-out domains": {
+    "answered": 36,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   },
+   "training domains": {
+    "answered": 72,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   },
+   "trap tables": {
+    "answered": 19,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   },
+   "real test 5": {
+    "answered": 208,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   },
+   "real test 5 disguised": {
+    "answered": 179,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   }
+  },
+  "gpt": {
+   "held-out domains": {
+    "answered": 0,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 36
+   },
+   "training domains": {
+    "answered": 0,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 72
+   },
+   "trap tables": {
+    "answered": 0,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 19
+   },
+   "real test 5": {
+    "answered": 208,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   },
+   "real test 5 disguised": {
+    "answered": 179,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   }
+  },
+  "gpu5-leakaudit5-s3407": {
+   "held-out domains": {
+    "answered": 36,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   },
+   "training domains": {
+    "answered": 72,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   },
+   "trap tables": {
+    "answered": 19,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   },
+   "real test 5": {
+    "answered": 208,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   },
+   "real test 5 disguised": {
+    "answered": 179,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   }
+  },
+  "gpu5-leakaudit5-s3408": {
+   "held-out domains": {
+    "answered": 36,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   },
+   "training domains": {
+    "answered": 72,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   },
+   "trap tables": {
+    "answered": 19,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   },
+   "real test 5": {
+    "answered": 208,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   },
+   "real test 5 disguised": {
+    "answered": 179,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   }
+  },
+  "gpu5-leakaudit5-s3409": {
+   "held-out domains": {
+    "answered": 36,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   },
+   "training domains": {
+    "answered": 72,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   },
+   "trap tables": {
+    "answered": 19,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   },
+   "real test 5": {
+    "answered": 208,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   },
+   "real test 5 disguised": {
+    "answered": 179,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   }
+  },
+  "gpu5-qwen3.5-9b": {
+   "held-out domains": {
+    "answered": 36,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   },
+   "training domains": {
+    "answered": 72,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   },
+   "trap tables": {
+    "answered": 19,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   },
+   "real test 5": {
+    "answered": 208,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   },
+   "real test 5 disguised": {
+    "answered": 179,
+    "unreadable": 0,
+    "stale": 0,
+    "absent": 0
+   }
+  }
+ },
+ "results": {
+  "primary": {
+   "labels": {
+    "claude": {
+     "real test 5": {
+      "budget": 0.9085684891240446,
+      "threshold": 25.0,
+      "ff": 67.0,
+      "fixed": 0.8675191064079953,
+      "fixed_ff": 25.0,
+      "tables": 68
+     },
+     "real test 5 (tables with a disguise)": {
+      "budget": 0.902126385145253,
+      "threshold": 30.0,
+      "ff": 62.0,
+      "fixed": 0.8763402216232405,
+      "fixed_ff": 25.0,
+      "tables": 65
+     },
+     "real test 5 disguised": {
+      "budget": 0.8292802236198462,
+      "threshold": 45.0,
+      "ff": 56.0,
+      "fixed": 0.8263774660001074,
+      "fixed_ff": 49.0,
+      "tables": 65
+     }
+    },
+    "gguf5-q4km": {
+     "training domains": {
+      "budget": 0.8358333333333334,
+      "threshold": 10.0,
+      "ff": 4.0,
+      "fixed": 0.8358333333333334,
+      "fixed_ff": 4.0,
+      "tables": 24
+     },
+     "held-out domains": {
+      "budget": 0.6416666666666667,
+      "threshold": 10.0,
+      "ff": 4.0,
+      "fixed": 0.625,
+      "fixed_ff": 3.0,
+      "tables": 12
+     },
+     "trap tables": {
+      "budget": 0.7027777777777778,
+      "threshold": 10.0,
+      "ff": 4.0,
+      "fixed": 0.7027777777777778,
+      "fixed_ff": 4.0,
+      "tables": 6
+     },
+     "real test 5": {
+      "budget": 0.7355333966445078,
+      "threshold": 25.0,
+      "ff": 54.0,
+      "fixed": 0.7355333966445078,
+      "fixed_ff": 54.0,
+      "tables": 68
+     },
+     "real test 5 (tables with a disguise)": {
+      "budget": 0.7330591840025802,
+      "threshold": 25.0,
+      "ff": 54.0,
+      "fixed": 0.7330591840025802,
+      "fixed_ff": 54.0,
+      "tables": 65
+     },
+     "real test 5 disguised": {
+      "budget": 0.6580851014813278,
+      "threshold": 25.0,
+      "ff": 44.0,
+      "fixed": 0.6580851014813278,
+      "fixed_ff": 44.0,
+      "tables": 65
+     }
+    },
+    "gguf5-q6k": {
+     "training domains": {
+      "budget": 0.8608333333333335,
+      "threshold": 10.0,
+      "ff": 0.0,
+      "fixed": 0.8608333333333335,
+      "fixed_ff": 0.0,
+      "tables": 24
+     },
+     "held-out domains": {
+      "budget": 0.5666666666666667,
+      "threshold": 25.0,
+      "ff": 2.0,
+      "fixed": 0.5666666666666667,
+      "fixed_ff": 2.0,
+      "tables": 12
+     },
+     "trap tables": {
+      "budget": 0.6611111111111111,
+      "threshold": 55.0,
+      "ff": 2.0,
+      "fixed": 0.6611111111111111,
+      "fixed_ff": 3.0,
+      "tables": 6
+     },
+     "real test 5": {
+      "budget": 0.8037805815583594,
+      "threshold": 25.0,
+      "ff": 52.0,
+      "fixed": 0.8037805815583594,
+      "fixed_ff": 52.0,
+      "tables": 68
+     },
+     "real test 5 (tables with a disguise)": {
+      "budget": 0.8007072591978253,
+      "threshold": 25.0,
+      "ff": 52.0,
+      "fixed": 0.8007072591978253,
+      "fixed_ff": 52.0,
+      "tables": 65
+     },
+     "real test 5 disguised": {
+      "budget": 0.6797264754811924,
+      "threshold": 25.0,
+      "ff": 49.0,
+      "fixed": 0.6797264754811925,
+      "fixed_ff": 49.0,
+      "tables": 65
+     }
+    },
+    "gpt": {
+     "real test 5": {
+      "budget": 0.9425925925925924,
+      "threshold": 80.0,
+      "ff": 64.0,
+      "fixed": 0.9477366255144033,
+      "fixed_ff": 75.0,
+      "tables": 68
+     },
+     "real test 5 (tables with a disguise)": {
+      "budget": 0.9415094339622639,
+      "threshold": 80.0,
+      "ff": 64.0,
+      "fixed": 0.9467505241090146,
+      "fixed_ff": 75.0,
+      "tables": 65
+     },
+     "real test 5 disguised": {
+      "budget": 0.8825097334531297,
+      "threshold": 85.0,
+      "ff": 63.0,
+      "fixed": 0.9019766397124888,
+      "fixed_ff": 81.0,
+      "tables": 65
+     }
+    },
+    "gpu5-leakaudit5-s3407": {
+     "training domains": {
+      "budget": 0.865,
+      "threshold": 10.0,
+      "ff": 6.0,
+      "fixed": 0.8525,
+      "fixed_ff": 2.0,
+      "tables": 24
+     },
+     "held-out domains": {
+      "budget": 0.7416666666666667,
+      "threshold": 10.0,
+      "ff": 5.0,
+      "fixed": 0.6333333333333334,
+      "fixed_ff": 1.0,
+      "tables": 12
+     },
+     "trap tables": {
+      "budget": 0.6611111111111111,
+      "threshold": 45.0,
+      "ff": 0.0,
+      "fixed": 0.6611111111111111,
+      "fixed_ff": 0.0,
+      "tables": 6
+     },
+     "real test 5": {
+      "budget": 0.8264550264550264,
+      "threshold": 40.0,
+      "ff": 66.0,
+      "fixed": 0.7918871252204585,
+      "fixed_ff": 55.0,
+      "tables": 68
+     },
+     "real test 5 (tables with a disguise)": {
+      "budget": 0.8074573225516621,
+      "threshold": 45.0,
+      "ff": 60.0,
+      "fixed": 0.7885893980233603,
+      "fixed_ff": 55.0,
+      "tables": 65
+     },
+     "real test 5 disguised": {
+      "budget": 0.7194859124104406,
+      "threshold": 45.0,
+      "ff": 59.0,
+      "fixed": 0.6989707881217315,
+      "fixed_ff": 55.0,
+      "tables": 65
+     }
+    },
+    "gpu5-leakaudit5-s3408": {
+     "training domains": {
+      "budget": 0.8733333333333334,
+      "threshold": 10.0,
+      "ff": 12.0,
+      "fixed": 0.8400000000000001,
+      "fixed_ff": 4.0,
+      "tables": 24
+     },
+     "held-out domains": {
+      "budget": 0.6666666666666667,
+      "threshold": 10.0,
+      "ff": 11.0,
+      "fixed": 0.6166666666666667,
+      "fixed_ff": 3.0,
+      "tables": 12
+     },
+     "trap tables": {
+      "budget": 0.6611111111111111,
+      "threshold": 10.0,
+      "ff": 4.0,
+      "fixed": 0.6194444444444444,
+      "fixed_ff": 1.0,
+      "tables": 6
+     },
+     "real test 5": {
+      "budget": 0.8468841857730746,
+      "threshold": 30.0,
+      "ff": 66.0,
+      "fixed": 0.7877888572333015,
+      "fixed_ff": 44.0,
+      "tables": 68
+     },
+     "real test 5 (tables with a disguise)": {
+      "budget": 0.8446241389637615,
+      "threshold": 30.0,
+      "ff": 65.0,
+      "fixed": 0.7850427350427349,
+      "fixed_ff": 44.0,
+      "tables": 65
+     },
+     "real test 5 disguised": {
+      "budget": 0.7824500272613478,
+      "threshold": 35.0,
+      "ff": 65.0,
+      "fixed": 0.6978949247817172,
+      "fixed_ff": 41.0,
+      "tables": 65
+     }
+    },
+    "gpu5-leakaudit5-s3409": {
+     "training domains": {
+      "budget": 0.8816666666666666,
+      "threshold": 10.0,
+      "ff": 11.0,
+      "fixed": 0.8525,
+      "fixed_ff": 3.0,
+      "tables": 24
+     },
+     "held-out domains": {
+      "budget": 0.6583333333333334,
+      "threshold": 15.0,
+      "ff": 6.0,
+      "fixed": 0.5666666666666667,
+      "fixed_ff": 1.0,
+      "tables": 12
+     },
+     "trap tables": {
+      "budget": 0.6611111111111111,
+      "threshold": 25.0,
+      "ff": 1.0,
+      "fixed": 0.5777777777777778,
+      "fixed_ff": 1.0,
+      "tables": 6
+     },
+     "real test 5": {
+      "budget": 0.8309885587663365,
+      "threshold": 35.0,
+      "ff": 67.0,
+      "fixed": 0.7560360421471534,
+      "fixed_ff": 48.0,
+      "tables": 68
+     },
+     "real test 5 (tables with a disguise)": {
+      "budget": 0.8196235630197894,
+      "threshold": 40.0,
+      "ff": 59.0,
+      "fixed": 0.7570933259612505,
+      "fixed_ff": 48.0,
+      "tables": 65
+     },
+     "real test 5 disguised": {
+      "budget": 0.7042840632463274,
+      "threshold": 40.0,
+      "ff": 57.0,
+      "fixed": 0.6598695678884356,
+      "fixed_ff": 41.0,
+      "tables": 65
+     }
+    },
+    "gpu5-qwen3.5-9b": {
+     "training domains": {
+      "budget": 0.5358333333333334,
+      "threshold": 65.0,
+      "ff": 24.0,
+      "fixed": 0.5608333333333333,
+      "fixed_ff": 28.0,
+      "tables": 24
+     },
+     "held-out domains": {
+      "budget": 0.525,
+      "threshold": 75.0,
+      "ff": 2.0,
+      "fixed": 0.55,
+      "fixed_ff": 18.0,
+      "tables": 12
+     },
+     "trap tables": {
+      "budget": 0.19166666666666665,
+      "threshold": 70.0,
+      "ff": 5.0,
+      "fixed": 0.35833333333333334,
+      "fixed_ff": 10.0,
+      "tables": 6
+     },
+     "real test 5": {
+      "budget": 0.5991736829699792,
+      "threshold": 70.0,
+      "ff": 61.0,
+      "fixed": 0.7270627349331055,
+      "fixed_ff": 134.0,
+      "tables": 68
+     },
+     "real test 5 (tables with a disguise)": {
+      "budget": 0.6098499159819915,
+      "threshold": 70.0,
+      "ff": 61.0,
+      "fixed": 0.7395230381079438,
+      "fixed_ff": 127.0,
+      "tables": 65
+     },
+     "real test 5 disguised": {
+      "budget": 0.5176490351018652,
+      "threshold": 85.0,
+      "ff": 65.0,
+      "fixed": 0.6302813189605643,
+      "fixed_ff": 158.0,
+      "tables": 65
+     }
+    },
+    "column check": {
+     "real test 5": {
+      "budget": 0.3599230844601214,
+      "threshold": 45.0,
+      "ff": 56.0,
+      "fixed": 0.34808201058201055,
+      "fixed_ff": 44.0,
+      "tables": 68
+     },
+     "real test 5 (tables with a disguise)": {
+      "budget": 0.3635694319656583,
+      "threshold": 45.0,
+      "ff": 52.0,
+      "fixed": 0.3527628032345013,
+      "fixed_ff": 43.0,
+      "tables": 65
+     }
+    },
+    "keyword rule": {
+     "real test 5": {
+      "budget": 0.0,
+      "threshold": null,
+      "ff": 0.0,
+      "fixed": 0.17947285910248872,
+      "fixed_ff": 108.0,
+      "tables": 68
+     },
+     "real test 5 (tables with a disguise)": {
+      "budget": 0.0,
+      "threshold": null,
+      "ff": 0.0,
+      "fixed": 0.18223020864530298,
+      "fixed_ff": 93.0,
+      "tables": 65
+     }
+    }
+   },
+   "trained_mean": {
+    "training domains": 0.8733333333333334,
+    "held-out domains": 0.688888888888889,
+    "trap tables": 0.6611111111111111,
+    "real test 5": 0.8347759236648126,
+    "real test 5 (tables with a disguise)": 0.823901674845071,
+    "real test 5 disguised": 0.7354066676393719
+   },
+   "hypotheses": {
+    "H1": {
+     "what": "trained - untrained, real test 5",
+     "estimate": 0.23560224069483338,
+     "rule": ">= +0.10, interval > 0",
+     "supported": true,
+     "ci95": [
+      0.11133122753315071,
+      0.33594915201396675
+     ]
+    },
+    "H2": {
+     "what": "best frontier - trained, real test 5",
+     "estimate": 0.10781666892777986,
+     "rule": "<= +0.05",
+     "supported": false,
+     "ci95": [
+      0.048554602030870905,
+      0.20335173919995342
+     ]
+    },
+    "H3": {
+     "what": "trained real - trained disguised (same tables)",
+     "estimate": 0.08849500720569914,
+     "rule": "<= +0.05",
+     "supported": false,
+     "ci95": [
+      -0.005698330825990288,
+      0.18608027913444586
+     ]
+    },
+    "H4": {
+     "what": "trained - column check, real test 5",
+     "estimate": 0.4748528392046912,
+     "rule": ">= +0.20, interval > 0",
+     "supported": true,
+     "ci95": [
+      0.2986332718456376,
+      0.5994826646090532
+     ]
+    },
+    "H5": {
+     "what": "trained - untrained, held-out domains",
+     "estimate": 0.16388888888888897,
+     "rule": ">= -0.05",
+     "supported": true,
+     "ci95": [
+      0.00687003968253966,
+      0.25277777777777777
+     ]
+    }
+   },
+   "best_frontier": "gpt",
+   "groups": {
+    "training domains": 24,
+    "held-out domains": 12,
+    "trap tables": 6,
+    "real test 5": 68,
+    "real test 5 (tables with a disguise)": 65,
+    "real test 5 disguised": 65
+   }
+  },
+  "sealed": {
+   "labels": {
+    "claude": {
+     "real test 5": {
+      "budget": 0.9085684891240446,
+      "threshold": 25.0,
+      "ff": 67.0,
+      "fixed": 0.8675191064079953,
+      "fixed_ff": 25.0,
+      "tables": 68
+     },
+     "real test 5 (tables with a disguise)": {
+      "budget": 0.902126385145253,
+      "threshold": 30.0,
+      "ff": 62.0,
+      "fixed": 0.8763402216232405,
+      "fixed_ff": 25.0,
+      "tables": 65
+     },
+     "real test 5 disguised": {
+      "budget": 0.8292802236198462,
+      "threshold": 45.0,
+      "ff": 56.0,
+      "fixed": 0.8263774660001074,
+      "fixed_ff": 49.0,
+      "tables": 65
+     }
+    },
+    "gguf5-q4km": {
+     "training domains": {
+      "budget": 0.8358333333333334,
+      "threshold": 10.0,
+      "ff": 4.0,
+      "fixed": 0.8358333333333334,
+      "fixed_ff": 4.0,
+      "tables": 24
+     },
+     "held-out domains": {
+      "budget": 0.6416666666666667,
+      "threshold": 10.0,
+      "ff": 4.0,
+      "fixed": 0.625,
+      "fixed_ff": 3.0,
+      "tables": 12
+     },
+     "trap tables": {
+      "budget": 0.7027777777777778,
+      "threshold": 10.0,
+      "ff": 4.0,
+      "fixed": 0.7027777777777778,
+      "fixed_ff": 4.0,
+      "tables": 6
+     },
+     "real test 5": {
+      "budget": 0.7355333966445078,
+      "threshold": 25.0,
+      "ff": 54.0,
+      "fixed": 0.7355333966445078,
+      "fixed_ff": 54.0,
+      "tables": 68
+     },
+     "real test 5 (tables with a disguise)": {
+      "budget": 0.7330591840025802,
+      "threshold": 25.0,
+      "ff": 54.0,
+      "fixed": 0.7330591840025802,
+      "fixed_ff": 54.0,
+      "tables": 65
+     },
+     "real test 5 disguised": {
+      "budget": 0.6580851014813278,
+      "threshold": 25.0,
+      "ff": 44.0,
+      "fixed": 0.6580851014813278,
+      "fixed_ff": 44.0,
+      "tables": 65
+     }
+    },
+    "gguf5-q6k": {
+     "training domains": {
+      "budget": 0.8608333333333335,
+      "threshold": 10.0,
+      "ff": 0.0,
+      "fixed": 0.8608333333333335,
+      "fixed_ff": 0.0,
+      "tables": 24
+     },
+     "held-out domains": {
+      "budget": 0.5666666666666667,
+      "threshold": 25.0,
+      "ff": 2.0,
+      "fixed": 0.5666666666666667,
+      "fixed_ff": 2.0,
+      "tables": 12
+     },
+     "trap tables": {
+      "budget": 0.6611111111111111,
+      "threshold": 55.0,
+      "ff": 2.0,
+      "fixed": 0.6611111111111111,
+      "fixed_ff": 3.0,
+      "tables": 6
+     },
+     "real test 5": {
+      "budget": 0.8037805815583594,
+      "threshold": 25.0,
+      "ff": 52.0,
+      "fixed": 0.8037805815583594,
+      "fixed_ff": 52.0,
+      "tables": 68
+     },
+     "real test 5 (tables with a disguise)": {
+      "budget": 0.8007072591978253,
+      "threshold": 25.0,
+      "ff": 52.0,
+      "fixed": 0.8007072591978253,
+      "fixed_ff": 52.0,
+      "tables": 65
+     },
+     "real test 5 disguised": {
+      "budget": 0.6797264754811924,
+      "threshold": 25.0,
+      "ff": 49.0,
+      "fixed": 0.6797264754811925,
+      "fixed_ff": 49.0,
+      "tables": 65
+     }
+    },
+    "gpt": {
+     "real test 5": {
+      "budget": 0.9425925925925924,
+      "threshold": 80.0,
+      "ff": 64.0,
+      "fixed": 0.9477366255144033,
+      "fixed_ff": 75.0,
+      "tables": 68
+     },
+     "real test 5 (tables with a disguise)": {
+      "budget": 0.9415094339622639,
+      "threshold": 80.0,
+      "ff": 64.0,
+      "fixed": 0.9467505241090146,
+      "fixed_ff": 75.0,
+      "tables": 65
+     },
+     "real test 5 disguised": {
+      "budget": 0.8825097334531297,
+      "threshold": 85.0,
+      "ff": 63.0,
+      "fixed": 0.9019766397124888,
+      "fixed_ff": 81.0,
+      "tables": 65
+     }
+    },
+    "gpu5-leakaudit5-s3407": {
+     "training domains": {
+      "budget": 0.865,
+      "threshold": 10.0,
+      "ff": 6.0,
+      "fixed": 0.8525,
+      "fixed_ff": 2.0,
+      "tables": 24
+     },
+     "held-out domains": {
+      "budget": 0.7416666666666667,
+      "threshold": 10.0,
+      "ff": 5.0,
+      "fixed": 0.6333333333333334,
+      "fixed_ff": 1.0,
+      "tables": 12
+     },
+     "trap tables": {
+      "budget": 0.6611111111111111,
+      "threshold": 45.0,
+      "ff": 0.0,
+      "fixed": 0.6611111111111111,
+      "fixed_ff": 0.0,
+      "tables": 6
+     },
+     "real test 5": {
+      "budget": 0.8264550264550264,
+      "threshold": 40.0,
+      "ff": 66.0,
+      "fixed": 0.7918871252204585,
+      "fixed_ff": 55.0,
+      "tables": 68
+     },
+     "real test 5 (tables with a disguise)": {
+      "budget": 0.8074573225516621,
+      "threshold": 45.0,
+      "ff": 60.0,
+      "fixed": 0.7885893980233603,
+      "fixed_ff": 55.0,
+      "tables": 65
+     },
+     "real test 5 disguised": {
+      "budget": 0.7194859124104406,
+      "threshold": 45.0,
+      "ff": 59.0,
+      "fixed": 0.6989707881217315,
+      "fixed_ff": 55.0,
+      "tables": 65
+     }
+    },
+    "gpu5-leakaudit5-s3408": {
+     "training domains": {
+      "budget": 0.8733333333333334,
+      "threshold": 10.0,
+      "ff": 12.0,
+      "fixed": 0.8400000000000001,
+      "fixed_ff": 4.0,
+      "tables": 24
+     },
+     "held-out domains": {
+      "budget": 0.6666666666666667,
+      "threshold": 10.0,
+      "ff": 11.0,
+      "fixed": 0.6166666666666667,
+      "fixed_ff": 3.0,
+      "tables": 12
+     },
+     "trap tables": {
+      "budget": 0.6611111111111111,
+      "threshold": 10.0,
+      "ff": 4.0,
+      "fixed": 0.6194444444444444,
+      "fixed_ff": 1.0,
+      "tables": 6
+     },
+     "real test 5": {
+      "budget": 0.8468841857730746,
+      "threshold": 30.0,
+      "ff": 66.0,
+      "fixed": 0.7877888572333015,
+      "fixed_ff": 44.0,
+      "tables": 68
+     },
+     "real test 5 (tables with a disguise)": {
+      "budget": 0.8446241389637615,
+      "threshold": 30.0,
+      "ff": 65.0,
+      "fixed": 0.7850427350427349,
+      "fixed_ff": 44.0,
+      "tables": 65
+     },
+     "real test 5 disguised": {
+      "budget": 0.7824500272613478,
+      "threshold": 35.0,
+      "ff": 65.0,
+      "fixed": 0.6978949247817172,
+      "fixed_ff": 41.0,
+      "tables": 65
+     }
+    },
+    "gpu5-leakaudit5-s3409": {
+     "training domains": {
+      "budget": 0.8816666666666666,
+      "threshold": 10.0,
+      "ff": 11.0,
+      "fixed": 0.8525,
+      "fixed_ff": 3.0,
+      "tables": 24
+     },
+     "held-out domains": {
+      "budget": 0.6583333333333334,
+      "threshold": 15.0,
+      "ff": 6.0,
+      "fixed": 0.5666666666666667,
+      "fixed_ff": 1.0,
+      "tables": 12
+     },
+     "trap tables": {
+      "budget": 0.6611111111111111,
+      "threshold": 25.0,
+      "ff": 1.0,
+      "fixed": 0.5777777777777778,
+      "fixed_ff": 1.0,
+      "tables": 6
+     },
+     "real test 5": {
+      "budget": 0.8309885587663365,
+      "threshold": 35.0,
+      "ff": 67.0,
+      "fixed": 0.7560360421471534,
+      "fixed_ff": 48.0,
+      "tables": 68
+     },
+     "real test 5 (tables with a disguise)": {
+      "budget": 0.8196235630197894,
+      "threshold": 40.0,
+      "ff": 59.0,
+      "fixed": 0.7570933259612505,
+      "fixed_ff": 48.0,
+      "tables": 65
+     },
+     "real test 5 disguised": {
+      "budget": 0.7042840632463274,
+      "threshold": 40.0,
+      "ff": 57.0,
+      "fixed": 0.6598695678884356,
+      "fixed_ff": 41.0,
+      "tables": 65
+     }
+    },
+    "gpu5-qwen3.5-9b": {
+     "training domains": {
+      "budget": 0.5358333333333334,
+      "threshold": 65.0,
+      "ff": 24.0,
+      "fixed": 0.5608333333333333,
+      "fixed_ff": 28.0,
+      "tables": 24
+     },
+     "held-out domains": {
+      "budget": 0.525,
+      "threshold": 75.0,
+      "ff": 2.0,
+      "fixed": 0.55,
+      "fixed_ff": 18.0,
+      "tables": 12
+     },
+     "trap tables": {
+      "budget": 0.19166666666666665,
+      "threshold": 70.0,
+      "ff": 5.0,
+      "fixed": 0.35833333333333334,
+      "fixed_ff": 10.0,
+      "tables": 6
+     },
+     "real test 5": {
+      "budget": 0.5991736829699792,
+      "threshold": 70.0,
+      "ff": 61.0,
+      "fixed": 0.7270627349331055,
+      "fixed_ff": 134.0,
+      "tables": 68
+     },
+     "real test 5 (tables with a disguise)": {
+      "budget": 0.6098499159819915,
+      "threshold": 70.0,
+      "ff": 61.0,
+      "fixed": 0.7395230381079438,
+      "fixed_ff": 127.0,
+      "tables": 65
+     },
+     "real test 5 disguised": {
+      "budget": 0.5176490351018652,
+      "threshold": 85.0,
+      "ff": 65.0,
+      "fixed": 0.6302813189605643,
+      "fixed_ff": 158.0,
+      "tables": 65
+     }
+    },
+    "column check": {
+     "real test 5": {
+      "budget": 0.3599230844601214,
+      "threshold": 45.0,
+      "ff": 56.0,
+      "fixed": 0.34808201058201055,
+      "fixed_ff": 44.0,
+      "tables": 68
+     },
+     "real test 5 (tables with a disguise)": {
+      "budget": 0.3635694319656583,
+      "threshold": 45.0,
+      "ff": 52.0,
+      "fixed": 0.3527628032345013,
+      "fixed_ff": 43.0,
+      "tables": 65
+     }
+    },
+    "keyword rule": {
+     "real test 5": {
+      "budget": 0.0,
+      "threshold": null,
+      "ff": 0.0,
+      "fixed": 0.17947285910248872,
+      "fixed_ff": 108.0,
+      "tables": 68
+     },
+     "real test 5 (tables with a disguise)": {
+      "budget": 0.0,
+      "threshold": null,
+      "ff": 0.0,
+      "fixed": 0.18223020864530298,
+      "fixed_ff": 93.0,
+      "tables": 65
+     }
+    }
+   },
+   "trained_mean": {
+    "training domains": 0.8733333333333334,
+    "held-out domains": 0.688888888888889,
+    "trap tables": 0.6611111111111111,
+    "real test 5": 0.8347759236648126,
+    "real test 5 (tables with a disguise)": 0.823901674845071,
+    "real test 5 disguised": 0.7354066676393719
+   },
+   "hypotheses": {
+    "H1": {
+     "what": "trained - untrained, real test 5",
+     "estimate": 0.23560224069483338,
+     "rule": ">= +0.10, interval > 0",
+     "supported": true,
+     "ci95": [
+      0.11133122753315071,
+      0.33594915201396675
+     ]
+    },
+    "H2": {
+     "what": "best frontier - trained, real test 5",
+     "estimate": 0.10781666892777986,
+     "rule": "<= +0.05",
+     "supported": false,
+     "ci95": [
+      0.048554602030870905,
+      0.20335173919995342
+     ]
+    },
+    "H3": {
+     "what": "trained real - trained disguised (same tables)",
+     "estimate": 0.08849500720569914,
+     "rule": "<= +0.05",
+     "supported": false,
+     "ci95": [
+      -0.005698330825990288,
+      0.18608027913444586
+     ]
+    },
+    "H4": {
+     "what": "trained - column check, real test 5",
+     "estimate": 0.4748528392046912,
+     "rule": ">= +0.20, interval > 0",
+     "supported": true,
+     "ci95": [
+      0.2986332718456376,
+      0.5994826646090532
+     ]
+    },
+    "H5": {
+     "what": "trained - untrained, held-out domains",
+     "estimate": 0.16388888888888897,
+     "rule": ">= -0.05",
+     "supported": true,
+     "ci95": [
+      0.00687003968253966,
+      0.25277777777777777
+     ]
+    }
+   },
+   "best_frontier": "gpt",
+   "groups": {
+    "training domains": 24,
+    "held-out domains": 12,
+    "trap tables": 6,
+    "real test 5": 68,
+    "real test 5 (tables with a disguise)": 65,
+    "real test 5 disguised": 65
+   }
+  }
+ },
+ "created": "2026-10-30 01:15:54",
+ "aliases_sha256": "ca81dbb53ce50bd7d17055173a5d872d78f9979ceccee5b1d88906da8ae10615",
+ "sealed_sha256": "853b13b2724edf2aa26d2f0cbf7ddbea09b4120c7b434dc620916e0694337588"
+}

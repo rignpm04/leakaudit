@@ -1,20 +1,21 @@
 cff-version: 1.2.0
 message: "If you use this record, please cite it as below."
-title: "leakaudit: run 5 answer fingerprints and amendment 1 (before the test key is opened)"
-abstract: "Fine-tuning run 5 of leakaudit, after the training run and before test 5's answer key is opened.
-  answers_manifest_run5.json fingerprints (SHA-256) every answer that the untrained model, the three trained runs
-  and the two laptop-size GGUF files gave to the 514 test prompts; adapters_sha256_run5.txt fingerprints the
-  trained LoRA add-ons; train_run5.json is the run record. AMENDMENT_1.md records one deviation in the training run
-  (Unsloth's per-block compile turned off after a crash; no setting of the plan changed) and when scoring starts.
-  t8_score.py is the scoring script with the published answer fingerprint entered. The pre-registration is release
-  v1.0-prereg (10.5281/zenodo.23685637); the exploratory runs 1-4 are release v0.1."
+title: "leakaudit: run 5 results (pre-registered)"
+abstract: "Results of leakaudit's pre-registered fine-tuning run 5, scored on 2026-10-30 against the sealed key of real
+  test 5 (68 public tables). Fine-tuning raised a 9B model's macro recall, at no more than one false flag per table,
+  from 0.60 to 0.83; the vendor-style column check reached 0.36 and two frontier models 0.91 and 0.94. Three of five
+  pre-registered hypotheses held (gain over the untrained model, gain over the column check, no loss on held-out
+  generated domains); the gap to the best frontier model and the loss on disguised copies exceeded their 0.05 limits.
+  RESULTS_run5.md summarizes them; results_run5.txt and results_run5.json are the scoring script's output. Test 5, the
+  answers and the hand labels follow in release v1.0. Pre-registration: 10.5281/zenodo.23685637; answer fingerprints:
+  10.5281/zenodo.23725257."
 type: software
 authors:
   - given-names: "Patrick"
     family-names: "Rigney"
     affiliation: "Azalea Intelligence LLC"
-version: "1.0-answers"
-date-released: "2026-10-28"
+version: "1.0-results"
+date-released: "2026-10-30"
 license: Apache-2.0
 repository-code: "https://github.com/rignpm04/leakaudit"
 keywords:

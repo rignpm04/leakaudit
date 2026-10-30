@@ -1,0 +1,90 @@
+Fine-tune run 5 -- results against test 5's key (2026-10-30 01:15:49)
+Key corrections applied (primary key): 0
+
+HYPOTHESES (within budget, <= 1 false flag per table; trained = the mean of seeds 3407, 3408, 3409; primary key)
+    comparison                                      estimate  95% interval      rule                    verdict        on the sealed key
+--  ----------------------------------------------  --------  ----------------  ----------------------  -------------  --------------------
+H1  trained - untrained, real test 5                +0.236    [+0.111, +0.336]  >= +0.10, interval > 0  SUPPORTED      +0.236 supported
+H2  best frontier - trained, real test 5            +0.108    [+0.049, +0.203]  <= +0.05                not supported  +0.108 not supported
+H3  trained real - trained disguised (same tables)  +0.088    [-0.006, +0.186]  <= +0.05                not supported  +0.088 not supported
+H4  trained - column check, real test 5             +0.475    [+0.299, +0.599]  >= +0.20, interval > 0  SUPPORTED      +0.475 supported
+H5  trained - untrained, held-out domains           +0.164    [+0.007, +0.253]  >= -0.05                SUPPORTED      +0.164 supported
+
+WITHIN BUDGET (best threshold, <= 1 false flag per table)
+model                    real test 5 (68)      real test 5 disguised (65)  real test 5 (tables with a disguise) (65)  training domains (24)  held-out domains (12)  trap tables (6)
+-----------------------  --------------------  --------------------------  -----------------------------------------  ---------------------  ---------------------  -------------------
+gpu5-qwen3.5-9b          0.599 / 61 ff (T 70)  0.518 / 65 ff (T 85)        0.610 / 61 ff (T 70)                       0.536 / 24 ff (T 65)   0.525 / 2 ff (T 75)    0.192 / 5 ff (T 70)
+gpu5-leakaudit5-s3407    0.826 / 66 ff (T 40)  0.719 / 59 ff (T 45)        0.807 / 60 ff (T 45)                       0.865 / 6 ff (T 10)    0.742 / 5 ff (T 10)    0.661 / 0 ff (T 45)
+gpu5-leakaudit5-s3408    0.847 / 66 ff (T 30)  0.782 / 65 ff (T 35)        0.845 / 65 ff (T 30)                       0.873 / 12 ff (T 10)   0.667 / 11 ff (T 10)   0.661 / 4 ff (T 10)
+gpu5-leakaudit5-s3409    0.831 / 67 ff (T 35)  0.704 / 57 ff (T 40)        0.820 / 59 ff (T 40)                       0.882 / 11 ff (T 10)   0.658 / 6 ff (T 15)    0.661 / 1 ff (T 25)
+gguf5-q4km               0.736 / 54 ff (T 25)  0.658 / 44 ff (T 25)        0.733 / 54 ff (T 25)                       0.836 / 4 ff (T 10)    0.642 / 4 ff (T 10)    0.703 / 4 ff (T 10)
+gguf5-q6k                0.804 / 52 ff (T 25)  0.680 / 49 ff (T 25)        0.801 / 52 ff (T 25)                       0.861 / 0 ff (T 10)    0.567 / 2 ff (T 25)    0.661 / 2 ff (T 55)
+claude                   0.909 / 67 ff (T 25)  0.829 / 56 ff (T 45)        0.902 / 62 ff (T 30)                       -                      -                      -
+gpt                      0.943 / 64 ff (T 80)  0.883 / 63 ff (T 85)        0.942 / 64 ff (T 80)                       -                      -                      -
+column check             0.360 / 56 ff (T 45)  -                           0.364 / 52 ff (T 45)                       -                      -                      -
+keyword rule             0.000 / 0 ff (T -)    -                           0.000 / 0 ff (T -)                         -                      -                      -
+trained (mean of seeds)  0.835                 0.735                       0.824                                      0.873                  0.689                  0.661
+
+FIXED (flagged at risk >= 50)
+model                    real test 5 (68)  real test 5 disguised (65)  real test 5 (tables with a disguise) (65)  training domains (24)  held-out domains (12)  trap tables (6)
+-----------------------  ----------------  --------------------------  -----------------------------------------  ---------------------  ---------------------  ---------------
+gpu5-qwen3.5-9b          0.727 / 134 ff    0.630 / 158 ff              0.740 / 127 ff                             0.561 / 28 ff          0.550 / 18 ff          0.358 / 10 ff
+gpu5-leakaudit5-s3407    0.792 / 55 ff     0.699 / 55 ff               0.789 / 55 ff                              0.853 / 2 ff           0.633 / 1 ff           0.661 / 0 ff
+gpu5-leakaudit5-s3408    0.788 / 44 ff     0.698 / 41 ff               0.785 / 44 ff                              0.840 / 4 ff           0.617 / 3 ff           0.619 / 1 ff
+gpu5-leakaudit5-s3409    0.756 / 48 ff     0.660 / 41 ff               0.757 / 48 ff                              0.853 / 3 ff           0.567 / 1 ff           0.578 / 1 ff
+gguf5-q4km               0.736 / 54 ff     0.658 / 44 ff               0.733 / 54 ff                              0.836 / 4 ff           0.625 / 3 ff           0.703 / 4 ff
+gguf5-q6k                0.804 / 52 ff     0.680 / 49 ff               0.801 / 52 ff                              0.861 / 0 ff           0.567 / 2 ff           0.661 / 3 ff
+claude                   0.868 / 25 ff     0.826 / 49 ff               0.876 / 25 ff                              -                      -                      -
+gpt                      0.948 / 75 ff     0.902 / 81 ff               0.947 / 75 ff                              -                      -                      -
+column check             0.348 / 44 ff     -                           0.353 / 43 ff                              -                      -                      -
+keyword rule             0.179 / 108 ff    -                           0.182 / 93 ff                              -                      -                      -
+trained (mean of seeds)  0.779             0.686                       0.777                                      0.848                  0.606                  0.619
+
+Seed spread on real test 5 (within budget): 0.826, 0.847, 0.831; range 0.020
+TRAP TABLES (fixed at 50, as in run 4): leaks found, trap columns flagged (legitimate columns built to look late), other false flags
+model                  leaks found  trap columns flagged  other false flags
+---------------------  -----------  --------------------  -----------------
+gpu5-qwen3.5-9b        9 / 22       6 / 24                4
+gpu5-leakaudit5-s3407  15 / 22      0 / 24                0
+gpu5-leakaudit5-s3408  14 / 22      1 / 24                0
+gpu5-leakaudit5-s3409  13 / 22      1 / 24                0
+gguf5-q4km             16 / 22      2 / 24                2
+gguf5-q6k              15 / 22      2 / 24                1
+
+COLUMN CHECK AT THE VENDORS' DEFAULT LEVELS (real test 5): macro / false flags / leaks found
+level                                  macro  false flags  leaks found
+-------------------------------------  -----  -----------  -----------
+DataRobot moderate (Gini >= 0.85)      0.151  11           46 / 388
+DataRobot high (Gini >= 0.975)         0.099  0            22 / 388
+H2O flag (AUC >= 0.95 / R2 >= 0.95)    0.118  1            33 / 388
+H2O notice (AUC >= 0.80 / R2 >= 0.80)  0.191  24           74 / 388
+Leak columns below H2O's notice level: 314 of 388; flagged at 50 by the trained runs: gpu5-leakaudit5-s3407 278, gpu5-leakaudit5-s3408 273, gpu5-leakaudit5-s3409 247
+
+HAND LABELS ON THE 15 LABELED TABLES (fixed: 'leak' = flagged) and every model on the same tables (fixed at 50 / within budget on these 15), on the primary and on the sealed key
+labeler or model                                                    fixed          within budget  fixed (sealed key)  within budget (sealed key)
+------------------------------------------------------------------  -------------  -------------  ------------------  --------------------------
+human: Patrick Rigney (leak_labeling_test5_15_tables_Patrick.xlsx)  0.736 / 9 ff   -              0.736 / 9 ff        -
+gpu5-qwen3.5-9b                                                     0.897 / 11 ff  0.897 / 10 ff  0.897 / 11 ff       0.897 / 10 ff
+gpu5-leakaudit5-s3407                                               0.924 / 13 ff  0.939 / 15 ff  0.924 / 13 ff       0.939 / 15 ff
+gpu5-leakaudit5-s3408                                               0.924 / 10 ff  0.955 / 15 ff  0.924 / 10 ff       0.955 / 15 ff
+gpu5-leakaudit5-s3409                                               0.924 / 8 ff   0.939 / 9 ff   0.924 / 8 ff        0.939 / 9 ff
+gguf5-q4km                                                          0.833 / 9 ff   0.833 / 9 ff   0.833 / 9 ff        0.833 / 9 ff
+gguf5-q6k                                                           0.924 / 10 ff  0.924 / 9 ff   0.924 / 10 ff       0.924 / 9 ff
+claude                                                              0.955 / 1 ff   0.970 / 11 ff  0.955 / 1 ff        0.970 / 11 ff
+gpt                                                                 0.970 / 18 ff  0.970 / 10 ff  0.970 / 18 ff       0.970 / 10 ff
+column check                                                        0.315 / 7 ff   0.469 / 14 ff  0.315 / 7 ff        0.469 / 14 ff
+keyword rule                                                        0.110 / 13 ff  0.110 / 13 ff  0.110 / 13 ff       0.110 / 13 ff
+Workbook rows against the model's view: human: Patrick Rigney (leak_labeling_test5_15_tables_Patrick.xlsx): 0 differ, 15 only in tied categories
+
+RECOGNITION (the frontier models' top-3 guesses of the dataset, test 5): tables whose source / edition was named
+model   real: source / edition / asked  disguised: source / edition / asked
+------  ------------------------------  -----------------------------------
+claude  65 / 21 / 68                    49 / 3 / 65
+gpt     65 / 9 / 68                     52 / 3 / 65
+SENTENCES-ONLY CHECK (from the three task sentences alone, the likelihood of a leak; AUC leak vs clean tables, 0.5 = no information)
+model   leak tables  clean tables  AUC
+------  -----------  ------------  -----
+claude  54           14            0.806
+gpt     54           14            0.829
+
+Answers used (prompts answered / unreadable / not matching or not fingerprinted / absent): claude 387/0/0/127; gguf5-q4km 514/0/0/0; gguf5-q6k 514/0/0/0; gpt 387/0/0/127; gpu5-leakaudit5-s3407 514/0/0/0; gpu5-leakaudit5-s3408 514/0/0/0; gpu5-leakaudit5-s3409 514/0/0/0; gpu5-qwen3.5-9b 514/0/0/0

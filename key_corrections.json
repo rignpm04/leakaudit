@@ -1,0 +1,10 @@
+{
+ "created": "2026-10-30 01:06:11",
+ "rule": "A key label changes only if (1) a human labeler of the 15 labeled tables disagrees with it, (2) an independent re-check finds documentation or an exact data relation that supports the labeler, and (3) the change is made before any run 5 answer on test 5 is scored or opened.",
+ "labels_reviewed": [
+  "leak_labeling_test5_15_tables_Patrick.xlsx (Patrick Rigney, author-labeler; labeled before opening the key; 198 of 257 columns labeled, 59 left blank with notes)"
+ ],
+ "disagreements": 12,
+ "recheck": "Each disagreement re-checked by a separate Claude agent with a fresh context, given only the rule, the tables' task statements, the key's labels and recorded reasons, the documentation links and the data; evidence per column in key_recheck_run5.json. Result: the key stands on all 12.",
+ "corrections": []
+}
